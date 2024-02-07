@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: royalblue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  padding: 50px;
+  border-radius: 60px 10px 60px 10px;
+  box-shadow: 5px 5px 10px white;
+}
+
+.heading {
+  color: rgb(10, 154, 156);
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+  color: white;
+}
+
+.btn-red {
+  background-color: red;
+}
+.btn-red:active {
+  background-color: rgb(151, 3, 3);
+}
+
+.btn-green {
+  background-color: green;
+}
+.btn-green:active {
+  background-color: rgb(9, 88, 9);
+}
+
+.btn-gray {
+  background-color: gray;
+}
+.btn-gray:active {
+  background-color: rgb(87, 86, 86);
+}
+
+button:hover {
+  cursor: pointer;
+}
